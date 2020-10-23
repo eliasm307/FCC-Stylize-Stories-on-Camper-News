@@ -1,3 +1,120 @@
 body {
-  font-family: sans-serif;
+  padding: 0em;
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: large;
+  min-width: 500px;
 }
+
+main, header {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 0em 2em 0em 2em;
+  
+}
+
+main {
+  margin-top: calc(150px + 3vh);
+}
+
+header {   
+  text-align: center;
+  align-content: center;
+  background: linear-gradient(180deg, #aaa, white);
+  height: auto;
+  position: fixed;
+  min-width: 500px;
+  width: 100%;
+  height: auto; 
+  top: 0px;
+  left: 0px;
+}
+div, section {
+  /*border-style: dotted; */
+  max-width: 1024px;
+  width: 100%;
+  margin: auto;
+  display: block;
+  align-self: start;
+}
+
+img {  
+}
+
+figure { 
+  margin: 0px;
+}
+
+main {
+   
+}
+ 
+h1 { 
+  font-size:  calc(20px + 3vh); 
+}
+
+h2 { 
+  font-size: calc(10px + 1.5vw);
+  padding: auto;
+  margin: auto;
+  text-align: center;
+}
+ 
+
+
+ 
+#img-div {  
+  padding: 0px;
+   
+}
+
+#timeline-div {
+  display: grid;
+  grid-template-columns: 5% 1fr;
+  grid-gap: 0px 2em; 
+  align-items: start;
+}
+
+.timeline-date {
+  font-weight: bold;
+  font-size: 100%;
+  align-self: start; 
+  justify-self: start;
+}
+
+.timeline-desc {
+  align-self: start; 
+  justify-self: start;
+}
+ 
+hr {
+  display: block;
+  width: 100%; 
+  
+}
+
+#image { 
+  max-width: 100%;
+  height: auto;
+  display: block;  
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  font-size: 90%;
+}
+
+p {
+  width: 100%; 
+}
+ 
+
+@media (min-width: 10000px)
+{
+  body {
+    font-size: medium;
+  }
+}
+
